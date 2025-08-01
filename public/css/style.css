@@ -1,0 +1,175 @@
+.link-hover {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+  transition: color 0.3s ease-in-out;
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffc107;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Aktifkan garis jika sedang hover */
+.link-hover:hover::after {
+  width: 100%;
+}
+
+/* Aktifkan garis jika link sedang aktif */
+.link-hover.active::after {
+  width: 100%;
+}
+
+/* Warna teks saat hover */
+.link-hover:hover {
+  color: #ffc107 !important;
+}
+
+/* Warna teks saat aktif */
+.link-hover.active {
+  color: #ffc107 !important;
+}
+
+/* Tambahan untuk teks shadow */
+.text-shadow-dark {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.text-shadow-none {
+  text-shadow: none !important;
+}
+
+.slide-track {
+  display: flex;
+  animation: scrollClients 30s linear infinite;
+  width: max-content;
+}
+
+.client-logo {
+  width: 180px;
+  height: 100px;
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.client-logo:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scrollClients {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Atur sesuai jumlah logo atau duplikat */
+}
+
+.why-card {
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.why-icon-wrapper {
+  height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-icon {
+  opacity: 1;
+  max-width: 80px;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.why-facts {
+  opacity: 0;
+  z-index: 2;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #333;
+  transition: opacity 0.3s ease;
+  position: relative;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.why-card:hover .why-facts {
+  opacity: 1;
+}
+
+.why-card:hover .why-icon {
+  opacity: 0.02;
+}
+
+/* Buat dropdown muncul saat hover pada seluruh .nav-item.dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0px);
+  pointer-events: auto;
+}
+
+/* Dropdown awal disembunyikan */
+.dropdown-menu {
+  display: block;
+  opacity: 0;
+  transform: translateY(-5px);
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+/* Styling tambahan agar tampilan rapi */
+.dropdown-menu.custom-dropdown {
+  min-width: 240px;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 0.75rem 1.25rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #ffc107;
+}
+
+.dropdown-icon {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease, margin-left 0.3s ease;
+  margin-left: 2px;
+  font-weight: bold;
+  filter: drop-shadow(0 0 0.6px #333);
+}
+
+.nav-item.dropdown:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.card-body a:hover {
+  color: #ffc107 !important;
+  transform: translateX(4px);
+  transition: all 0.2s ease;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
