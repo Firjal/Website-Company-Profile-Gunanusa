@@ -171,10 +171,10 @@
 
             <!-- Text -->
             <div class="col-md-6 order-2 order-md-1 text-center text-md-start" data-aos="fade-left">
-                <h3 class="fw-bold">
+                <h4 class="fw-bold">
                 Precision Fabrication with Global Quality Standards
-                </h3>
-                <p class="mt-3 fs-5">
+                </h4>
+                <p class="mt-3">
                 With decades of experience and certifications like ISO 9001, ISO 14001, and ASME U/U2/S,
                 PT Gunanusa Utama Fabricators commits to delivering precision-engineered platforms without
                 compromising safety, quality, or environmental standards.
