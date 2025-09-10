@@ -50,24 +50,24 @@
                     <div class="accordion-body">
                       <ul class="list-unstyled">
                         <li class="mb-3 bg-light p-3 rounded">
-                          <strong>MR. EDDY RIJANTO</strong><br>
+                          <strong>LINAYATI SUKARDI</strong><br>
                           <span class="text-muted small">President Director</span>
                         </li>
                         <li class="mb-3 bg-light p-3 rounded">
-                          <strong>MR. KEMAL ARIEF</strong><br>
-                          <span class="text-muted small">Finance Director</span>
+                          <strong>GIAN FRANCO DESOGUS</strong><br>
+                          <span class="text-muted small">Deputy President Director</span>
                         </li>
                         <li class="mb-3 bg-light p-3 rounded">
-                          <strong>MR. RAMLI SIMATUPANG</strong><br>
-                          <span class="text-muted small">Marketing and Project Director</span>
+                          <strong>Eddy Gunawin</strong><br>
+                          <span class="text-muted small">VP Admin, Finance, & Control</span>
                         </li>
                         <li class="mb-3 bg-light p-3 rounded">
-                          <strong>MR. AGUS RIZAL</strong><br>
-                          <span class="text-muted small">Vice President PROJECT</span>
+                          <strong>IWAN SANTOSA</strong><br>
+                          <span class="text-muted small">VP Supply Chains Management</span>
                         </li>
                         <li class="mb-3 bg-light p-3 rounded">
-                          <strong>MR. DADAN A. KOMARUDIN</strong><br>
-                          <span class="text-muted small">Vice President HRD & GA</span>
+                          <strong>DADAN A. KOMARUDIN</strong><br>
+                          <span class="text-muted small">VP HRD & GA</span>
                         </li>
                       </ul>
                     </div>

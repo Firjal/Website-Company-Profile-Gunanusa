@@ -6,7 +6,7 @@
     
     <!-- Hero Section -->
     <section id="hero" style="margin-top: -25px">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2500">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-inner">
 
             <!-- Slide 1 -->
