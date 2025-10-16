@@ -165,7 +165,7 @@
       </div>
       <div class="dropdown">
         <a href="#" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
-          <img src="https://i.pravatar.cc/300" alt="Admin" class="profile-img me-2">
+          <img src="{{ asset('images/foto-profil.jpg') }}" alt="Admin" class="profile-img me-2">
           <strong>{{ $adminUser->name }}</strong>
         </a>
         <ul class="dropdown-menu dropdown-menu-end">
